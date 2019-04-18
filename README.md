@@ -1,6 +1,6 @@
 # justice-icons
 ## Justice Icon Set
-Justice Icon set is a collection of icons related to topics, working groups, and programs on the left. These include immigration justice, anti-imperialism, housing, healthcare, political education, and some miscellaneous concepts.
+Justice Icon set is a collection of icons related to topics and programs on the contemporary US left.
 
 ## Formats
 * **PNG** intended for incidental web use where SVG is not performant.
