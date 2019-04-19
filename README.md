@@ -12,23 +12,8 @@ Justice Icon set is a collection of icons related to topics and programs on the 
 * **White on Red** is white icon line icons on a DSA red, circular background
 
 ## Categories
-* prison abolition
-* hand gestures
-* imperialism
-* environment
-* healthcare
-* immigration
-* housing
-* transit
-* people
-* food
-* labor
-* finance
-* activism
-* tools
-* communication
-* clothes
-* human body
+* prison abolition, hand gestures, imperialism, environment, healthcare, immigration, housing, transit, people, food, labor, finance, activism, tools, communication, clothes, human body
 
+## Overview of Icons
 ![Alt text](/icons-justice-red-on-white.jpg?raw=true "Justice Icon Set - Red on White")
 ![Alt text](/icons-justice-white-on-red.jpg?raw=true "Justice Icon Set - White on Red")
