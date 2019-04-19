@@ -8,9 +8,8 @@ Justice Icon set is a collection of icons related to topics, working groups, and
 * **EPS** optimized for printed materials: pamphlets, posters, newspaper, etc.
 
 ## Naming Conventions
-* **Black on White** is black icon line art on white, circular backdrops
-* **Red on White** is DSA red on white, circular background
-* **White on Red** is white icon line art on a DSA red background
+* **Red on White** is DSA red line icons on white, circular backgrounds
+* **White on Red** is white icon line icons on a DSA red, circular background
 
 ## Categories
 * prison abolition
@@ -23,6 +22,7 @@ Justice Icon set is a collection of icons related to topics, working groups, and
 * transit
 * people
 * food
+* labor
 * finance
 * activism
 * tools
