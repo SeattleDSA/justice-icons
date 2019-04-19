@@ -29,3 +29,6 @@ Justice Icon set is a collection of icons related to topics and programs on the 
 * communication
 * clothes
 * human body
+
+![Alt text](/icons-justice-red-on-white.jpg?raw=true "Justice Icon Set - Red on White")
+![Alt text](/icons-justice-white-on-red.jpg?raw=true "Justice Icon Set - White on Red")
