@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'justice-webfont';
-  src:  url('fonts/justice-webfont.eot?ia0z5n');
-  src:  url('fonts/justice-webfont.eot?ia0z5n#iefix') format('embedded-opentype'),
-    url('fonts/justice-webfont.ttf?ia0z5n') format('truetype'),
-    url('fonts/justice-webfont.woff?ia0z5n') format('woff'),
-    url('fonts/justice-webfont.svg?ia0z5n#justice-webfont') format('svg');
+  font-family: 'justice-icons';
+  src:  url('fonts/justice-icons.eot?xol1a2');
+  src:  url('fonts/justice-icons.eot?xol1a2#iefix') format('embedded-opentype'),
+    url('fonts/justice-icons.ttf?xol1a2') format('truetype'),
+    url('fonts/justice-icons.woff?xol1a2') format('woff'),
+    url('fonts/justice-icons.svg?xol1a2#justice-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -12,7 +12,7 @@
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'justice-webfont' !important;
+  font-family: 'justice-icons' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,6 +25,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-amazon-box:before {
+  content: "\e960";
+  color: #f8981c;
+}
+.icon-amazon-frown:before {
+  content: "\e961";
+  color: #f8981c;
+}
+.icon-amazon-truck:before {
+  content: "\e962";
+  color: #f8981c;
+}
+.icon-system-failure:before {
+  content: "\e963";
+  color: #f8981c;
+}
+.icon-facebook:before {
+  content: "\e964";
+}
+.icon-instagram:before {
+  content: "\e965";
+}
+.icon-share:before {
+  content: "\e966";
+}
+.icon-twitter:before {
+  content: "\e967";
+}
 .icon-ambulance:before {
   content: "\e900";
 }
