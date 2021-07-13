@@ -8,86 +8,115 @@
 %%BeginProlog
 101 dict begin
 /m/moveto
-/L/rlineto
-/C/rcurveto
-/q/gsave
-/Q/grestore
-/n/newpath
-/h/closepath
-/f/fill
-/f*/eofill
-/S/stroke
-/w/setlinewidth
-/J/setlinecap
-/j/setlinejoin
-/ml/setmiterlimit
-/d/setdash
-/sc/setcolor
-/scs/setcolorspace
-17{load def}repeat
+/l/lineto
+/c/curveto
+3{load def}repeat
 %%EndProlog
-q
-/DeviceRGB scs
-n
-18 36 m
-9.934 0 18 -8.066 18 -18 C
-0 -9.934 -8.066 -18 -18 -18 C
--9.934 0 -18 8.066 -18 18 C
-0 9.934 8.066 18 18 18 C
-h
-1 1 1 sc
-f*
-25.78 19 m
-2.329 0 4.22 -1.891 4.22 -4.22 C
-0 -2.33 -1.891 -4.221 -4.22 -4.221 C
-0 0 -4.78 0 -4.78 0 C
-0 0 0 8.274 0 8.274 C
-0.053 0.055 0.105 0.11 0.154 0.167 C
-0 0 4.626 0 4.626 0 C
-h
-1 0 0 sc
-0.75 w
-1 J
-1 j
-S
-21 18.833 m
-0 0 0 -8.274 0 -8.274 C
-0 0 -4.78 0 -4.78 0 C
--1.009 0 -1.936 0.355 -2.663 0.947 C
-0.229 0.152 0.446 0.329 0.647 0.531 C
-6.759 6.759 L
-0.013 0.012 0.025 0.025 0.037 0.037 C
-h
-1 0 0 sc
-S
-17.584 15.416 m
-0 0 -5.969 5.969 -5.969 5.969 C
-0 0 -3.38 -3.38 -3.38 -3.38 C
--1.647 -1.647 -1.647 -4.321 0 -5.968 C
-1.647 -1.647 4.322 -1.647 5.969 0 C
-0 0 3.38 3.379 3.38 3.379 C
-h
-1 0 0 sc
-S
-11.615 21.385 m
-0 0 5.969 -5.969 5.969 -5.969 C
-0 0 3.379 3.38 3.379 3.38 C
-1.647 1.647 1.647 4.322 0 5.969 C
--1.647 1.647 -4.321 1.647 -5.968 0 C
-0 0 -3.38 -3.38 -3.38 -3.38 C
-h
-1 0 0 sc
-S
-26 17 m
-0.66 -0.244 1.789 -1.267 2 -2 C
-1 0 0 sc
-0 j
-3 ml
-S
-20 23 m
-0.645 -0.648 0.674 -2.138 0 -3 C
-1 0 0 sc
-S
-Q
+gsave
+ 
+ % pills
+  
+  % Ellipse
+    newpath
+    18 36 m
+    27.934 36 36 27.934 36 18 c
+    36 8.066 27.934 0 18 0 c
+    8.066 0 0 8.066 0 18 c
+    0 27.934 8.066 36 18 36 c
+    closepath
+    /DeviceRGB setcolorspace
+    1 1 1 setcolor
+    eofill
+  
+  % Curve
+    25.78 19 m
+    28.109 19 30 17.109 30 14.78 c
+    30 12.45 28.109 10.559 25.78 10.559 c
+    25.78 10.559 21 10.559 21 10.559 c
+    21 10.559 21 18.833 21 18.833 c
+    21.053 18.888 21.105 18.943 21.154 19 c
+    21.154 19 25.78 19 25.78 19 c
+    closepath
+    /DeviceRGB setcolorspace
+    0.137 0.122 0.125 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    1 setlinejoin
+    [] 0 setdash
+    stroke
+  
+  % Curve
+    21 18.833 m
+    21 18.833 21 10.559 21 10.559 c
+    21 10.559 16.22 10.559 16.22 10.559 c
+    15.211 10.559 14.284 10.914 13.557 11.506 c
+    13.786 11.658 14.003 11.835 14.204 12.037 c
+    20.963 18.796 l
+    20.976 18.808 20.988 18.821 21 18.833 c
+    closepath
+    /DeviceRGB setcolorspace
+    0.137 0.122 0.125 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    1 setlinejoin
+    [] 0 setdash
+    stroke
+  
+  % Curve
+    11.615 21.385 m
+    11.615 21.385 17.584 15.416 17.584 15.416 c
+    17.584 15.416 20.963 18.796 20.963 18.796 c
+    22.61 20.443 22.61 23.118 20.963 24.765 c
+    19.316 26.412 16.642 26.412 14.995 24.765 c
+    14.995 24.765 11.615 21.385 11.615 21.385 c
+    closepath
+    /DeviceRGB setcolorspace
+    1 0 0 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    1 setlinejoin
+    [] 0 setdash
+    stroke
+  
+  % Curve
+    17.584 15.416 m
+    17.584 15.416 11.615 21.385 11.615 21.385 c
+    11.615 21.385 8.235 18.005 8.235 18.005 c
+    6.588 16.358 6.588 13.684 8.235 12.037 c
+    9.882 10.39 12.557 10.39 14.204 12.037 c
+    14.204 12.037 17.584 15.416 17.584 15.416 c
+    closepath
+    /DeviceRGB setcolorspace
+    1 0 0 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    1 setlinejoin
+    [] 0 setdash
+    stroke
+  
+  % Curve
+    26 17 m
+    26.66 16.756 27.789 15.733 28 15 c
+    /DeviceRGB setcolorspace
+    0.137 0.122 0.125 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    0 setlinejoin
+    3 setmiterlimit
+    [] 0 setdash
+    stroke
+  
+  % Curve
+    20 23 m
+    20.645 22.352 20.674 20.862 20 20 c
+    /DeviceRGB setcolorspace
+    1 0 0 setcolor
+    0.75 setlinewidth
+    1 setlinecap
+    0 setlinejoin
+    3 setmiterlimit
+    [] 0 setdash
+    stroke
+ grestore
 showpage
 end
